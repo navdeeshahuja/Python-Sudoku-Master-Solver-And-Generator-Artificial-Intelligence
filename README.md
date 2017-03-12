@@ -5,7 +5,7 @@ Uses the Backtracking technique to effectively find the solution.
 Feel free to make changes :) 
 
 ## Demo
-```	
+```	python
 	>>> import SudokuMaster
 
 	>>>  board = SudokuMaster.makeBoard()
@@ -58,7 +58,7 @@ Feel free to make changes :)
 Just Copy the SudokuMaster.py in your project and you are good to go
 
 ## Usage
-```
+``` python
     import SudokuMaster
 	board = SudokuMaster.makeBoard()
 	puzzle = SudokuMaster.makePuzzleBoard(board, "moderate")
