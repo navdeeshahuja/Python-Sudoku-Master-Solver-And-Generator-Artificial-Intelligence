@@ -1,13 +1,10 @@
-
 # Sudoku-Master-Solver-And-Generator
-      
 
 A Python script to both solve and generate Sudoku puzzle boards.
 Uses the Backtracking technique to effectively find the solution.
 Feel free to make changes :) 
 
 ## Demo
-```python
 	
 	>>> import SudokuMaster
 
@@ -56,16 +53,12 @@ Feel free to make changes :)
 	[9, 7, 6, 1, 2, 5, 4, 3, 8]
 
 
-```
-
-
 ## Installation
 
 Just Copy the SudokuMaster.py in your project and you are good to go
 
 ## Usage
 
-```python
     import SudokuMaster
 	board = SudokuMaster.makeBoard()
 	puzzle = SudokuMaster.makePuzzleBoard(board, "moderate")
@@ -79,8 +72,6 @@ Just Copy the SudokuMaster.py in your project and you are good to go
 	    SudokuMaster.printBoard(puzzle)
 	else:
 	    print("No Solution Exist")
-
-```
 
 
 ## License
