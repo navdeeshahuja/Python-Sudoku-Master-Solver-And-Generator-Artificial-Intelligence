@@ -5,7 +5,7 @@ Uses the Backtracking technique to effectively find the solution.
 Feel free to make changes :) 
 
 ## Demo
-	
+```	
 	>>> import SudokuMaster
 
 	>>>  board = SudokuMaster.makeBoard()
@@ -51,14 +51,14 @@ Feel free to make changes :)
 	[8, 4, 3, 9, 7, 6, 2, 5, 1]
 	[1, 2, 5, 8, 4, 3, 7, 6, 9]
 	[9, 7, 6, 1, 2, 5, 4, 3, 8]
-
+```
 
 ## Installation
 
 Just Copy the SudokuMaster.py in your project and you are good to go
 
 ## Usage
-
+```
     import SudokuMaster
 	board = SudokuMaster.makeBoard()
 	puzzle = SudokuMaster.makePuzzleBoard(board, "moderate")
@@ -72,7 +72,7 @@ Just Copy the SudokuMaster.py in your project and you are good to go
 	    SudokuMaster.printBoard(puzzle)
 	else:
 	    print("No Solution Exist")
-
+```
 
 ## License
 MIT License
